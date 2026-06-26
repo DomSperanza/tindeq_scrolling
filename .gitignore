@@ -1,0 +1,41 @@
+# Android
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.aab
+
+# Android Studio
+*.hprof
+
+# Kotlin
+.kotlin/
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+.env.*
+*.keystore
+*.jks
+google-services.json
+
+# Python (optional tooling / scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+Thumbs.db
+*~
