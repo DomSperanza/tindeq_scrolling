@@ -2,6 +2,8 @@
 
 Android app that gates Instagram Reels behind Tindeq pull force. Hold a minimum pull to keep Reels usable; spike higher to auto-swipe to the next reel.
 
+An iOS version lives in [`ios/`](ios/README.md). iOS can't overlay other apps, so it is a standalone app that plays Instagram's web Reels with the same pull gate.
+
 ## How it works
 
 1. Enable **Tindeq Scrolling** in Android accessibility settings (Instagram only).
@@ -20,6 +22,7 @@ app/                          Android app (Kotlin)
   ble/                        Progressor GATT client
   accessibility/              Instagram overlay + swipe gestures
   service/                    Foreground BLE service
+ios/                          iOS app (SwiftUI + WKWebView), see ios/README.md
 tindeq-sdk/                   Reference TS SDK (not used at runtime)
 ```
 
